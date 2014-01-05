@@ -8,7 +8,7 @@
 
 -- {{{ Main
 theme = {}
-theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/aurora/aurora.jpg" }
+theme.wallpaper_cmd = { "awsetbg " .. awful.util.getdir("config") .. "/themes/aurora/aurora.jpg" }
 -- }}}
 
 -- {{{ Styles
@@ -71,55 +71,55 @@ theme.menu_width  = "150"
 
 -- {{{ Icons
 -- {{{ Taglist
-theme.taglist_squares_sel   = "/usr/share/awesome/themes/aurora/taglist/squarefz.png"
-theme.taglist_squares_unsel = "/usr/share/awesome/themes/aurora/taglist/squarez.png"
+theme.taglist_squares_sel   = awful.util.getdir("config") .. "/themes/aurora/taglist/squarefz.png"
+theme.taglist_squares_unsel = awful.util.getdir("config") .. "/themes/aurora/taglist/squarez.png"
 --theme.taglist_squares_resize = "false"
 -- }}}
 
 -- {{{ Misc
-theme.awesome_icon           = "/usr/share/awesome/themes/aurora/awesome-icon.png"
-theme.menu_submenu_icon      = "/usr/share/awesome/themes/default/submenu.png"
-theme.tasklist_floating_icon = "/usr/share/awesome/themes/default/tasklist/floatingw.png"
+theme.awesome_icon           = awful.util.getdir("config") .. "/themes/aurora/awesome-icon.png"
+theme.menu_submenu_icon      = awful.util.getdir("config") .. "/themes/default/submenu.png"
+theme.tasklist_floating_icon = awful.util.getdir("config") .. "/themes/default/tasklist/floatingw.png"
 -- }}}
 
 -- {{{ Layout
-theme.layout_tile       = "/usr/share/awesome/themes/aurora/layouts/tile.png"
-theme.layout_tileleft   = "/usr/share/awesome/themes/aurora/layouts/tileleft.png"
-theme.layout_tilebottom = "/usr/share/awesome/themes/aurora/layouts/tilebottom.png"
-theme.layout_tiletop    = "/usr/share/awesome/themes/aurora/layouts/tiletop.png"
-theme.layout_fairv      = "/usr/share/awesome/themes/aurora/layouts/fairv.png"
-theme.layout_fairh      = "/usr/share/awesome/themes/aurora/layouts/fairh.png"
-theme.layout_spiral     = "/usr/share/awesome/themes/aurora/layouts/spiral.png"
-theme.layout_dwindle    = "/usr/share/awesome/themes/aurora/layouts/dwindle.png"
-theme.layout_max        = "/usr/share/awesome/themes/aurora/layouts/max.png"
-theme.layout_fullscreen = "/usr/share/awesome/themes/aurora/layouts/fullscreen.png"
-theme.layout_magnifier  = "/usr/share/awesome/themes/aurora/layouts/magnifier.png"
-theme.layout_floating   = "/usr/share/awesome/themes/aurora/layouts/floating.png"
+theme.layout_tile       = awful.util.getdir("config") .. "/themes/aurora/layouts/tile.png"
+theme.layout_tileleft   = awful.util.getdir("config") .. "/themes/aurora/layouts/tileleft.png"
+theme.layout_tilebottom = awful.util.getdir("config") .. "/themes/aurora/layouts/tilebottom.png"
+theme.layout_tiletop    = awful.util.getdir("config") .. "/themes/aurora/layouts/tiletop.png"
+theme.layout_fairv      = awful.util.getdir("config") .. "/themes/aurora/layouts/fairv.png"
+theme.layout_fairh      = awful.util.getdir("config") .. "/themes/aurora/layouts/fairh.png"
+theme.layout_spiral     = awful.util.getdir("config") .. "/themes/aurora/layouts/spiral.png"
+theme.layout_dwindle    = awful.util.getdir("config") .. "/themes/aurora/layouts/dwindle.png"
+theme.layout_max        = awful.util.getdir("config") .. "/themes/aurora/layouts/max.png"
+theme.layout_fullscreen = awful.util.getdir("config") .. "/themes/aurora/layouts/fullscreen.png"
+theme.layout_magnifier  = awful.util.getdir("config") .. "/themes/aurora/layouts/magnifier.png"
+theme.layout_floating   = awful.util.getdir("config") .. "/themes/aurora/layouts/floating.png"
 -- }}}
 
 -- {{{ Titlebar
-theme.titlebar_close_button_focus  = "/usr/share/awesome/themes/aurora/titlebar/close_focus.png"
-theme.titlebar_close_button_normal = "/usr/share/awesome/themes/aurora/titlebar/close_normal.png"
+theme.titlebar_close_button_focus  = awful.util.getdir("config") .. "/themes/aurora/titlebar/close_focus.png"
+theme.titlebar_close_button_normal = awful.util.getdir("config") .. "/themes/aurora/titlebar/close_normal.png"
 
-theme.titlebar_ontop_button_focus_active  = "/usr/share/awesome/themes/aurora/titlebar/ontop_focus_active.png"
-theme.titlebar_ontop_button_normal_active = "/usr/share/awesome/themes/aurora/titlebar/ontop_normal_active.png"
-theme.titlebar_ontop_button_focus_inactive  = "/usr/share/awesome/themes/aurora/titlebar/ontop_focus_inactive.png"
-theme.titlebar_ontop_button_normal_inactive = "/usr/share/awesome/themes/aurora/titlebar/ontop_normal_inactive.png"
+theme.titlebar_ontop_button_focus_active  = awful.util.getdir("config") .. "/themes/aurora/titlebar/ontop_focus_active.png"
+theme.titlebar_ontop_button_normal_active = awful.util.getdir("config") .. "/themes/aurora/titlebar/ontop_normal_active.png"
+theme.titlebar_ontop_button_focus_inactive  = awful.util.getdir("config") .. "/themes/aurora/titlebar/ontop_focus_inactive.png"
+theme.titlebar_ontop_button_normal_inactive = awful.util.getdir("config") .. "/themes/aurora/titlebar/ontop_normal_inactive.png"
 
-theme.titlebar_sticky_button_focus_active  = "/usr/share/awesome/themes/aurora/titlebar/sticky_focus_active.png"
-theme.titlebar_sticky_button_normal_active = "/usr/share/awesome/themes/aurora/titlebar/sticky_normal_active.png"
-theme.titlebar_sticky_button_focus_inactive  = "/usr/share/awesome/themes/aurora/titlebar/sticky_focus_inactive.png"
-theme.titlebar_sticky_button_normal_inactive = "/usr/share/awesome/themes/aurora/titlebar/sticky_normal_inactive.png"
+theme.titlebar_sticky_button_focus_active  = awful.util.getdir("config") .. "/themes/aurora/titlebar/sticky_focus_active.png"
+theme.titlebar_sticky_button_normal_active = awful.util.getdir("config") .. "/themes/aurora/titlebar/sticky_normal_active.png"
+theme.titlebar_sticky_button_focus_inactive  = awful.util.getdir("config") .. "/themes/aurora/titlebar/sticky_focus_inactive.png"
+theme.titlebar_sticky_button_normal_inactive = awful.util.getdir("config") .. "/themes/aurora/titlebar/sticky_normal_inactive.png"
 
-theme.titlebar_floating_button_focus_active  = "/usr/share/awesome/themes/aurora/titlebar/floating_focus_active.png"
-theme.titlebar_floating_button_normal_active = "/usr/share/awesome/themes/aurora/titlebar/floating_normal_active.png"
-theme.titlebar_floating_button_focus_inactive  = "/usr/share/awesome/themes/aurora/titlebar/floating_focus_inactive.png"
-theme.titlebar_floating_button_normal_inactive = "/usr/share/awesome/themes/aurora/titlebar/floating_normal_inactive.png"
+theme.titlebar_floating_button_focus_active  = awful.util.getdir("config") .. "/themes/aurora/titlebar/floating_focus_active.png"
+theme.titlebar_floating_button_normal_active = awful.util.getdir("config") .. "/themes/aurora/titlebar/floating_normal_active.png"
+theme.titlebar_floating_button_focus_inactive  = awful.util.getdir("config") .. "/themes/aurora/titlebar/floating_focus_inactive.png"
+theme.titlebar_floating_button_normal_inactive = awful.util.getdir("config") .. "/themes/aurora/titlebar/floating_normal_inactive.png"
 
-theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/aurora/titlebar/maximized_focus_active.png"
-theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/aurora/titlebar/maximized_normal_active.png"
-theme.titlebar_maximized_button_focus_inactive  = "/usr/share/awesome/themes/aurora/titlebar/maximized_focus_inactive.png"
-theme.titlebar_maximized_button_normal_inactive = "/usr/share/awesome/themes/aurora/titlebar/maximized_normal_inactive.png"
+theme.titlebar_maximized_button_focus_active  = awful.util.getdir("config") .. "/themes/aurora/titlebar/maximized_focus_active.png"
+theme.titlebar_maximized_button_normal_active = awful.util.getdir("config") .. "/themes/aurora/titlebar/maximized_normal_active.png"
+theme.titlebar_maximized_button_focus_inactive  = awful.util.getdir("config") .. "/themes/aurora/titlebar/maximized_focus_inactive.png"
+theme.titlebar_maximized_button_normal_inactive = awful.util.getdir("config") .. "/themes/aurora/titlebar/maximized_normal_inactive.png"
 -- }}}
 -- }}}
 
