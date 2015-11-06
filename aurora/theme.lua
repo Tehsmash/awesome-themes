@@ -8,7 +8,7 @@
 
 -- {{{ Main
 theme = {}
-theme.wallpaper_cmd = { "awsetbg " .. awful.util.getdir("config") .. "/themes/aurora/aurora.jpg" }
+theme.wallpaper_cmd = { "feh --bg-fill --no-xinerama " .. awful.util.getdir("config") .. "/themes/aurora/aurora.jpg" }
 -- }}}
 
 -- {{{ Styles
