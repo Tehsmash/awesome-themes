@@ -1,30 +1,28 @@
-----------------------------------
---   "Aurora" awesome theme     --
---    By Sam Betts (Tehsmash)   --
-----------------------------------
-
 -- Alternative icon sets and widget icons:
 --  * http://awesome.naquadah.org/wiki/Nice_Icons
 
+local awful = require("awful")
+
 -- {{{ Main
 theme = {}
-theme.wallpaper_cmd = { "feh --bg-fill --no-xinerama " .. awful.util.getdir("config") .. "/themes/aurora/aurora.jpg" }
+theme.wallpaper = awful.util.getdir("config") .. "/themes/aurora/aurora.jpg"
 -- }}}
 
 -- {{{ Styles
 theme.font      = "sans 8"
 
 -- {{{ Colors
-theme.fg_normal = "#DCDCCC"
-theme.fg_focus  = "#F0DFAF"
-theme.fg_urgent = "#CC9393"
-theme.bg_normal = "#3F3F3F"
-theme.bg_focus  = "#1E2320"
-theme.bg_urgent = "#3F3F3F"
+theme.fg_normal  = "#DCDCCC"
+theme.fg_focus   = "#F0DFAF"
+theme.fg_urgent  = "#CC9393"
+theme.bg_normal  = "#3F3F3F"
+theme.bg_focus   = "#1E2320"
+theme.bg_urgent  = "#3F3F3F"
+theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.border_width  = "1"
+theme.border_width  = 2
 theme.border_normal = "#3F3F3F"
 theme.border_focus  = "#6F6F6F"
 theme.border_marked = "#CC9393"
@@ -65,8 +63,8 @@ theme.mouse_finder_color = "#CC9393"
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_height = "15"
-theme.menu_width  = "150"
+theme.menu_height = 15
+theme.menu_width  = 100
 -- }}}
 
 -- {{{ Icons
@@ -79,7 +77,6 @@ theme.taglist_squares_unsel = awful.util.getdir("config") .. "/themes/aurora/tag
 -- {{{ Misc
 theme.awesome_icon           = awful.util.getdir("config") .. "/themes/aurora/awesome-icon.png"
 theme.menu_submenu_icon      = awful.util.getdir("config") .. "/themes/default/submenu.png"
-theme.tasklist_floating_icon = awful.util.getdir("config") .. "/themes/default/tasklist/floatingw.png"
 -- }}}
 
 -- {{{ Layout
